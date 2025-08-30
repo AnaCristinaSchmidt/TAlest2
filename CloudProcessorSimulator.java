@@ -5,16 +5,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-/**
- * Representa uma única tarefa a ser processada.
- * Cada tarefa tem um nome, tempo de processamento, e dependências.
- */
+
 class Task {
     String name;
     int processingTime;
-    int originalInDegree; // Armazena o grau de entrada original para resetar a simulação
-    int inDegree; // Contador de dependências restantes
-    List<Task> successors = new ArrayList<>(); // Tarefas que dependem desta
+    int originalInDegree; 
+    int inDegree; 
+    List<Task> successors = new ArrayList<>(); 
 
     public Task(String name, int processingTime) {
         this.name = name;
