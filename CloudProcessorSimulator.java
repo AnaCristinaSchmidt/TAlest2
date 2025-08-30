@@ -31,35 +31,22 @@ class Task {
     }
 }
 
-/**
- * Representa um processador que pode executar tarefas.
- */
 class Processor {
     private Task currentTask = null;
     private int timeRemaining = 0;
 
-    /**
-     * Verifica se o processador está ocioso.
-     * @return true se não estiver executando nenhuma tarefa, false caso contrário.
-     */
+   
     public boolean isFree() {
         return currentTask == null;
     }
 
-    /**
-     * Atribui uma nova tarefa ao processador.
-     * @param task A tarefa a ser executada.
-     */
+    
     public void startTask(Task task) {
         this.currentTask = task;
         this.timeRemaining = task.processingTime;
     }
 
-    /**
-     * Simula a passagem do tempo para o processador.
-     * @param time O tempo a ser avançado.
-     * @return A tarefa que foi concluída, ou null se nenhuma foi concluída.
-     */
+    
     public Task advanceTime(int time) {
         if (currentTask == null) {
             return null;
@@ -80,26 +67,22 @@ class Processor {
     }
 }
 
-/**
- * Enum para definir a política de escalonamento.
- */
+
 enum SchedulingPolicy {
     MIN, MAX
 }
 
 public class CloudProcessorSimulator {
 
-    /**
-     * Ponto de entrada principal do programa. Executa a simulação para os casos de teste.
-     */
+   
     public static void main(String[] args) {
         System.out.println("### Iniciando Simulador de Processamento em Nuvem ###");
-        // Loop modificado para procurar arquivos no formato casoXXX.txt
+       
         for (int i = 1; i <= 500; i++) {
             String fileName = String.format("caso%03d.txt", i);
             File testFile = new File(fileName);
 
-            // Apenas processa o arquivo se ele existir no diretório
+          
             if (testFile.exists()) {
                 try {
                     System.out.println("\n======================================================");
