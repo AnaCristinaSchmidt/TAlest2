@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 8
 gotnq_80 -> uxga_39
 uxga_39 -> yttkl_11
