@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 12
 oa_167 -> xjg_336
 xjg_336 -> ykgk_83
