@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 16
 aef_408 -> xpulg_34
 aef_408 -> ba_268
