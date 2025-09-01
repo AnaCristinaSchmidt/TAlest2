@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 22
 bg_264 -> wub_280
 wub_280 -> yqhbp_12
