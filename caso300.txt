@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 19
 ojbc_157 -> wi_278
 fs_40 -> ojbc_157
