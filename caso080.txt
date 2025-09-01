@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 10
 ajwdi_461 -> lysoc_483
 lysoc_483 -> qc_497
