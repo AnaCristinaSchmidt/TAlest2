@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 14
 hu_207 -> ouhq_19
 hu_207 -> oam_322
