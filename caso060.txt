@@ -1,4 +1,4 @@
-digraph G {
+ {
 # Proc 9
 jqkw_299 -> tcsr_407
 jqkw_299 -> wusr_281
