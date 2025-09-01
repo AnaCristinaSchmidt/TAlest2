@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 6
 rmueo_221 -> wdaqh_232
 rmueo_221 -> vw_20
