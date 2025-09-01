@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 24
 nqe_138 -> nsbj_243
 nqe_138 -> xqcyt_53
