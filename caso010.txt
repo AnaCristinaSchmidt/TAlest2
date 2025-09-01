@@ -1,4 +1,4 @@
-digraph G {
+{
 # Proc 5
 pxwmp_185 -> uqy_85
 pxwmp_185 -> qpl_279
